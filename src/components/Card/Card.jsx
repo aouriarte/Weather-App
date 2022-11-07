@@ -6,7 +6,7 @@ import "./Card.css";
 export default function Card({ temp, name, img, onClose, id, clima }) {
   return (
     <div className="cardContent">
-      <button onClick={() => onClose(id)} className="cardButton">
+      <button onClick={onClose} className="cardButton">
         X
       </button>
       <div className="clima">
