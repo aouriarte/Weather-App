@@ -15,7 +15,7 @@ export default function Card({ temp, name, img, onClose, id, clima }) {
           alt=""
         />
         <h3>{temp}°C</h3>
-        <h5>Clima: {clima}</h5>
+        <h5>Climate: {clima}</h5>
       </div>
       <h4>{name}</h4>
       <Link to={`/ciudad/${id}`}>

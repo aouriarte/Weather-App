@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import Nav from '../components/Nav.jsx';
-import Cards from '../components/Cards.jsx';
-import About from "../components/About.jsx";
-import Ciudad from "../components/Ciudad.jsx";
+import Nav from '../components/Nav/Nav';
+import Cards from '../components/Cards/Cards.jsx';
+import About from "../components/About/About.jsx";
+import Ciudad from "../components/City/Ciudad.jsx";
 
 export default function App() {
   const [cities, setCities] = useState([]);
@@ -48,10 +48,7 @@ export default function App() {
       <Nav onSearch={onSearch} />
       <Switch>
         <Route exact path='/'>
-          <Cards
-            cities={cities}
-            onClose={onClose}
-          />
+          <Cards cities={cities} onClose={onClose} />
         </Route>
         <Route path='/about'>
           <About />
