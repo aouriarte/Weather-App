@@ -1,11 +1,10 @@
 import React from "react";
-//import { useParams } from 'react-router-dom';
 
 import "./Ciudad.css";
 
 export default function Ciudad({ city }) {
-  //const { id } = useParams(); // en vez del match
   if (!city) return <h3>No se encontró esa ciudad</h3>;
+  
   return (
     <div className="content">
         <h2>{city.name}</h2>
@@ -17,7 +16,7 @@ export default function Ciudad({ city }) {
           <p>Latitud: {city.latitud}º</p>
           <p>Longitud: {city.longitud}º</p>
         </div>
-  
+
     </div>
   );
 }

@@ -7,17 +7,6 @@ import "./Nav.css";
 function Nav({ onSearch }) {
   const [city, setCity] = useState("");
 
-  const handleName = (e) => {
-    e.preventDefault();
-    setCity(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onSearch(city);
-    setCity("");
-  };
-
   return (
     <nav className="nav">
       <Link to="/">
@@ -29,22 +18,25 @@ function Nav({ onSearch }) {
       <Link to="/about">
         <span>💡About</span>
       </Link>
-      <div className="searchBar">
+      <form
+        className="searchBar"
+        onSubmit={(e) => {
+          e.preventDefault();
+          onSearch(city);
+          setCity("");
+        }}
+      >
         <input
+          type="text"
           className="searchInput"
-          type="search"
-          placeholder="Search city"
           value={city}
-          onChange={(e) => handleName(e)}
+          onChange={(e) => setCity(e.target.value)}
+          placeholder="Search city"
         />
-        <button
-          className="searchButton"
-          type="submit"
-          onClick={(e) => handleSubmit(e)}
-        >
+        <button className="searchButton" type="submit">
           Add
         </button>
-      </div>
+      </form>
     </nav>
   );
 }
