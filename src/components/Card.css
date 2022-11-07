@@ -1,0 +1,53 @@
+.cardContent {
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 8px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: solid rgb(0, 162, 255) 2px;
+}
+
+.cardButton {
+  cursor: pointer;
+  float: right;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 162, 255);
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  margin: 4px;
+}
+
+.cardButton:hover {
+  background-color: rgb(11, 11, 124);
+  color: white;
+}
+
+.clima {
+  background-color: rgba(196, 242, 255, 0.26);
+  margin: 40px 30px 10px 30px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 45px;
+  color: black;
+  margin: -10px 30px 10px 30px;
+  padding-bottom: 8%;
+}
+
+h4 {
+  margin-bottom: 12px;
+  font-size: 40px;
+  color: black;
+}
+
+h5 {
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}

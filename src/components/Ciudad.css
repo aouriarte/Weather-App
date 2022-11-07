@@ -1,0 +1,24 @@
+.content {
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 8px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: solid rgb(0, 162, 255) 2px;
+  
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: black;
+}
+
+.info {
+  background-color: rgba(196, 242, 255, 0.26);
+  margin: 15px 30px 30px 30px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}

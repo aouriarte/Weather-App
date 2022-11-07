@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: linear-gradient(
+    90deg,#00b7d4,#505488,#2f3f80,#ffbb00,#5a4894,#ff7cae, #ffc164
+  );
+  background-size: 600%
+  /*background-image: url('../img/fondo.jpg');
+  background-size: cover;*/
+}
