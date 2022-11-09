@@ -1,11 +1,19 @@
 .cardContent {
   margin-top: 20px;
-  margin-right: 5px;
-  margin-left: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   width: 350px;
+  height: 350px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   border: solid rgb(0, 162, 255) 2px;
+  transition: all 0.25s;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cardContent:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .cardButton {

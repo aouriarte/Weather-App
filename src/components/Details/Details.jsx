@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Ciudad.css";
+import "./Details.css";
 
 export default function Ciudad({ city }) {
   if (!city) return <h3>No se encontró esa ciudad</h3>;

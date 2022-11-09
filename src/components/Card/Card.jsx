@@ -19,7 +19,7 @@ export default function Card({ temp, name, img, onClose, id, clima }) {
       </div>
       <h4>{name}</h4>
       <Link to={`/ciudad/${id}`}>
-        <p className="text">MORE DETAILS</p>
+        <a>MORE DETAILS</a>
       </Link>
     </div>
   );

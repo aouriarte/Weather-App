@@ -10,10 +10,10 @@ function Nav({ onSearch }) {
   return (
     <nav className="nav">
       <Link to="/">
-        <span className="">
+        <a>
           <img src={Logo} width="50" height="50" alt="Logo Not Found" />
           Weather App
-        </span>
+        </a>
       </Link>
       <Link to="/about">
         <span>💡About</span>
@@ -34,7 +34,7 @@ function Nav({ onSearch }) {
           placeholder="Search city"
         />
         <button className="searchButton" type="submit">
-          Add
+          Search
         </button>
       </form>
     </nav>

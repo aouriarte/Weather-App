@@ -1,12 +1,10 @@
 .content {
-  margin-top: 20px;
-  margin-right: 5px;
-  margin-left: 8px;
+  margin: 20px auto;
   width: 350px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   border: solid rgb(0, 162, 255) 2px;
-  
+  justify-content: center;
 }
 
 h2 {

@@ -9,6 +9,16 @@
   background: rgb(0, 53, 102);
 }
 
+a {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 /* SearchBar */
 .searchBar {
   display: flex;
@@ -19,6 +29,10 @@
   margin-right: 5px;
   padding: 5px;
   border: none;
+}
+
+.searchInput::placeholder {
+  padding-left: 5px;
 }
 
 .searchButton {
@@ -34,4 +48,13 @@
   background-color: rgb(0, 0, 0);
   color: white;
   border: none;
+}
+
+@media only screen and (max-width: 500px){
+  .nav {
+    height: 10rem;
+  }
+  .searchBar {
+    margin: 5px auto;
+  }
 }

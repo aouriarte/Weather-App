@@ -5,7 +5,7 @@ import './App.css';
 import Nav from '../components/Nav/Nav';
 import Cards from '../components/Cards/Cards.jsx';
 import About from "../components/About/About.jsx";
-import Ciudad from "../components/City/Ciudad.jsx";
+import Details from "../components/Details/Details.jsx";
 
 export default function App() {
   const [cities, setCities] = useState([]);
@@ -70,7 +70,7 @@ export default function App() {
         </Route>
         <Route
           path='/ciudad/:ciudadId'
-          render={({ match }) => <Ciudad city={onFilter(match.params.ciudadId)} />}
+          render={({ match }) => <Details city={onFilter(match.params.ciudadId)} />}
         >
         </Route>
       </Switch>
