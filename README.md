@@ -1,6 +1,16 @@
 <h1> Weather App <img src="./src/img/logo.png" width=100 /> </h1> 
 
-Se trata de una aplicación web en la que se puede buscar el clima de las ciudades del mundo. <br/>
-Proyecto hecho con React.js y una API: Open weather.
+## 🗒️ Enunciado 
 
-Visitala en: [weather-app-aouriarte.vercel.app](https://weather-app-aouriarte.vercel.app/)
+Se trata de una aplicación SPA (Single Page Application) en la que se puede buscar y ver el clima de las ciudades del mundo junto con información más detallada ultilizando la API de [Open weather](#).
+
+## 🛠️ Tecnologías Usadas 
+
+- __JavaScript__
+- __HMTL__
+- __CSS__
+- __React.js__
+
+## 💻 Demo
+
+Visítala en: [weather-app-aouriarte.vercel.app](https://weather-app-aouriarte.vercel.app/)
