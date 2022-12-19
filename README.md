@@ -7,7 +7,7 @@ Se trata de una aplicación SPA (Single Page Application) en la que se puede bus
 ## 🛠️ Tecnologías Usadas 
 
 - __JavaScript__
-- __HMTL__
+- __HTML__
 - __CSS__
 - __React.js__
 
