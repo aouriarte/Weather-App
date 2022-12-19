@@ -1,9 +1,6 @@
 {
   "name": "Weather App",
   "version": "1.0.0",
-  "keywords": [],
-  "author": "aouriarte",
-  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
